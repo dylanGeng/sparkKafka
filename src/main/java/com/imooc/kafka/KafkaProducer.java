@@ -10,7 +10,7 @@ import java.util.Properties;
 * Kafka Producer
 *
 * */
-public class KafkaProducer extends Thread{
+public class KafkaProducer extends Thread {
     private String topic;
 
     private Producer<Integer, String> producer;
